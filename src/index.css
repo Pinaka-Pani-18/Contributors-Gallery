@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+  /* dm means dark mode */
   .dm-text {
-    @apply text-black dark:text-white;
+    @apply text-cBlue dark:text-white;
   }
   .dm-bg {
-    @apply bg-white dark:bg-black;
+    @apply bg-white dark:bg-cBlue;
   }
   .dm-shadow {
     @apply shadow-md dark:shadow-white;
