@@ -16,7 +16,11 @@ Before you start contributing, we expect all contributors to follow these guidel
 ## Getting Started 🤩🤗:
 
 - Fork this repo (button on top)
+  ![image](https://github.com/tvermaashutosh/Contributors-Gallery/assets/96707067/93ab324b-c9d2-4d76-a9c1-b1843405295a)
+
 - Clone on your local machine
+  ![image](https://github.com/tvermaashutosh/Contributors-Gallery/assets/96707067/9d886f1e-b037-4853-886d-59508f80f4fb)
+
 
 ```terminal
 git clone https://github.com/Pinaka-Pani-18/Contributors-Gallery.git
@@ -42,13 +46,16 @@ git add .
 ```markdown
 git commit -m "Relevant message"
 ```
+![Screenshot (9)](https://github.com/tvermaashutosh/Contributors-Gallery/assets/96707067/39691df8-bbcb-4189-92c4-b10a3f94c302)
+
 - Then push 
 ```markdown
 git push origin my-new-branch
 ```
 
-
 - Create a new pull request from your forked repository
+  ![image](https://github.com/tvermaashutosh/Contributors-Gallery/assets/96707067/d98258a5-47c2-4b0e-ab40-7fd65ec2b850)
+
 
 <br>
 
