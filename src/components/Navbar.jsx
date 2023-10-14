@@ -5,6 +5,8 @@ const Navbar = () => {
   return (
     <div className="w-full dm-shadow dm-bg">
       <div className="max-w-[85rem] m-auto flex items-center p-4">
+        <img height="80" width="120"        
+        src='../resources/logo.png' alt="Project Icon"  />
         <h1 className="font-bold text-xl dm-text grow">
           <span className="text-cRed text-2xl">C</span>ontributors{" "}
           <span className="text-cRed text-2xl">G</span>allery

@@ -1,6 +1,6 @@
 # Contributors Gallery
 
-![Contributors Gallery Logo](./path/to/your/logo.png)
+![Contributors Gallery Logo]('../resources/logo.png'){width=120px height=80px}
 
 Contributors Gallery is an open-source project that serves as a platform to showcase the profiles and work of individuals who actively contribute to open-source projects.
 
