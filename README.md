@@ -1,6 +1,6 @@
 # Contributors Gallery
 
-![Contributors Gallery Logo]<img src="../resources/logo.png" width="120" height="80" alt="Contributors Gallery Logo" />
+![Contributors Gallery Logo]<img src="../resources/logo.png" width="120" height="80" alt="Contributors Gallery Logo" >
 
 
 
