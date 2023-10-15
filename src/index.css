@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @layer components {
+  *::selection {
+    @apply bg-lime-400 text-black1 dark:bg-pink-500 dark:text-white1;
+  }
+
+  html {
+    @apply font-Inter;
+  }
   /* dm means dark mode */
   .dm-text {
-    @apply text-cBlue dark:text-white;
+    @apply text-black1 dark:text-white1;
   }
   .dm-bg {
-    @apply bg-white dark:bg-cBlue;
+    @apply bg-white1 dark:bg-black1;
   }
   .dm-shadow {
-    @apply shadow-md dark:shadow-white;
+    @apply shadow-md dark:shadow-white1;
   }
 }

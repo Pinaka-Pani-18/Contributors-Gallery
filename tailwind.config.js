@@ -6,12 +6,18 @@ export default {
     extend: {
       colors: {
         //c stands for custom colors
-        cRed: "#DB2B39",
-        cBlue: "#29335C",
-        cYellow: "#F3A712",
-        cSkin: "#F0CEA0",
-        cBrown: "#534D41",
+        white1: "#fafafa",
+        white2: "#eaeaea",
+        gray4: "#999",
+        gray3: "#888",
+        gray2: "#666",
+        gray1: "#444",
+        black2: "#333",
+        black1: "#111",
       },
+    },
+    fontFamily: {
+      Inter: ["Inter", "sans-serif"],
     },
   },
   plugins: [],
