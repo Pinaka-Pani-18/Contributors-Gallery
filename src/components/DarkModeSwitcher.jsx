@@ -24,9 +24,9 @@ const DarkModeSwitcher = () => {
   return (
     <button onClick={toggleDarkTheme}>
       {!darkTheme ? (
-        <HiMoon className="text-2xl dark:text-white" />
+        <HiMoon className="text-2xl dark:text-gray2 dark:hover:text-white1" />
       ) : (
-        <FiSun className="text-xl text-cBlue" />
+        <FiSun className="text-xl text-gray2 hover:text-black1" />
       )}
     </button>
   );

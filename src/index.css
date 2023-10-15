@@ -16,8 +16,14 @@
   .dm-text {
     @apply text-black1 dark:text-white1;
   }
+  .dm-text-rev {
+    @apply text-white1 dark:text-black1;
+  }
   .dm-bg {
     @apply bg-white1 dark:bg-black1;
+  }
+  .dm-bg-rev {
+    @apply bg-black1 dark:bg-white1;
   }
   .dm-shadow {
     @apply shadow-md dark:shadow-white1;

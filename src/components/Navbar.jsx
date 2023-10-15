@@ -4,9 +4,9 @@ import { LuGalleryHorizontalEnd } from "react-icons/lu";
 
 const Navbar = () => {
   return (
-    <div className="w-full dm-bg">
-      <div className="max-w-[85rem] m-auto flex items-center p-4">
-        <h1 className="font-bold text-xl dm-text grow flex items-center">
+    <div className="w-full sticky top-0 dm-bg">
+      <div className="max-w-[1200px] m-auto flex items-center p-4">
+        <h1 className="font-bold text-xl dm-text grow flex items-center select-none">
           <LuGalleryHorizontalEnd className="mr-1" />
           Contributors Gallery
         </h1>
@@ -17,7 +17,7 @@ const Navbar = () => {
             target="blank"
             className="dm-text"
           >
-            <FiGithub className="text-lg" />
+            <FiGithub className="text-lg text-gray2 hover:text-black1 dark:hover:text-white1" />
           </a>
         </div>
       </div>
