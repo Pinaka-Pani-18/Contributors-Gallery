@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="min-h-[100vh-60px] h-full flex justify-center items-center flex-col gap-2  md:gap-4 lg:gap-5">
+    <div className="min-h-[100vh-60px] max-w-[1200px] m-auto p-4 h-screen flex justify-center items-center flex-col gap-2  md:gap-4 lg:gap-5">
       <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold leading-10 dm-text">
         Meet the Open Source Heroes
       </h1>
