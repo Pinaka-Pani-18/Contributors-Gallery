@@ -31,19 +31,19 @@ Before you start contributing, we expect all contributors to follow these guidel
 
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.
 
-    ```terminal
+    ```markdown
     git remote add upstream https://github.com/Pinaka-Pani-18/Contributors-Gallery
     ```
 
 You can verify that the new remote has been added by typing
 
-    ```terminal
+    ```markdown
     git remote -v
     ```
 
 To pull any new changes from your parent repo simply run
 
-    ```terminal
+    ```markdown
     git merge upstream/master
     ```
 
@@ -61,8 +61,8 @@ To pull any new changes from your parent repo simply run
 
 7. Commit your changes.
    `markdown
-    git commit -m "Relevant message"
-    `
+ git commit -m "Relevant message"
+ `
    ![Screenshot (9)](https://github.com/tvermaashutosh/Contributors-Gallery/assets/96707067/39691df8-bbcb-4189-92c4-b10a3f94c302)
 
 8. Then push
