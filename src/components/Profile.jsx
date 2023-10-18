@@ -14,9 +14,9 @@ export const Profile = () => {
           Contributors Profiles
         </h1>
       </div>
-      <div className="flex h-[100vh] flex-col mx-8 z-10">
+      <div className="relative flex  flex-col mx-8 z-10">
         <div>
-          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 w-54 h-24 ">
+          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 w-54 ">
             {/* card for profile */}
             {data.map((value, key) => (
               <div
