@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Profile } from "./Profile";
 
 const Search = () => {
   const [searchResult, setSearchResult] = useState("");
@@ -27,6 +28,9 @@ const Search = () => {
       >
         Example: Varun or React or Javascript
       </label>
+
+      {/* search display */}
+      {/* <div className="py-2">{searchResult != 0 && <Profile />}</div> */}
     </div>
   );
 };
