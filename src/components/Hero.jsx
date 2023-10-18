@@ -14,9 +14,12 @@ const Hero = () => {
         contributions. Join us in recognizing their commitment and be inspired
         to make your own mark in the open source community.
       </p>
-      <button className="dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2">
+      <a
+        href="/profile"
+        className="dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2 "
+      >
         Explore Contributors
-      </button>
+      </a>
     </div>
   );
 };
