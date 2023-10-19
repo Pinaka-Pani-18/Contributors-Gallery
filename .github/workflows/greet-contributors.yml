@@ -8,22 +8,21 @@ on:
     types: [opened]
   pull_request_target:
     types: [opened]
-    
+
 jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         if: ${{ github.event.sender.login != github.repository_owner }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
             ### Hello @${{ github.actor }},
-            
+
             Thank you for raising the issue. Soon, the maintainers/owner will review it and offer feedback and suggestions. If you enjoy contributing to the project, please consider giving it a star ⭐.
-            
+
           pr-message: |
             ### Good work @${{ github.actor }},
-            
+
             Thank you for raising the PR. Soon, the maintainers/owner will review it and offer feedback and suggestions. If you enjoy contributing to the project, please consider giving it a star ⭐.
