@@ -1,0 +1,12 @@
+name: Miscellaneous
+description: Create a miscellaneous issue
+title: "[Miscellaneous]: "
+labels: ["pending triage"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: Describe the miscellaneous issue.
+    validations:
+      required: true

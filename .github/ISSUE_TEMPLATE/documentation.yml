@@ -1,0 +1,12 @@
+name: Documentation Request
+description: Request improvements or additions to documentation
+title: "[Documentation]: "
+labels: ["documentation"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Documentation Request
+      description: Describe the documentation improvement or addition you are suggesting.
+    validations:
+      required: true

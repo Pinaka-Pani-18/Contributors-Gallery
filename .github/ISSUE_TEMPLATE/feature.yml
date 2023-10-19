@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest a new feature
+title: "[Feature Request]: "
+labels: ["feature"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: Describe the new feature you are suggesting.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Use Case
+      description: Provide a use case for this feature.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Please checkmark the following checklist
+      options:
+        - label: I confirm that this feature is not already implemented
+          required: true

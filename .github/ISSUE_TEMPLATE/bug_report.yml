@@ -26,7 +26,7 @@ body:
   - type: textarea
     attributes:
       label: Screenshots/Videos
-      description: Drag n Drop Screenshots or videos which would help us to view the bug visually
+      description: Drag and drop screenshots or videos which would help us to view the bug visually.
     validations:
       required: false
   - type: textarea
@@ -39,5 +39,5 @@ body:
     attributes:
       label: Please checkmark the following checklist
       options:
-        - label: I make sure that similar issue is not opened
+        - label: I make sure that a similar issue is not opened
           required: true
