@@ -14,5 +14,6 @@ body:
 - type: checkboxes
   attributes:
   label: Please checkmark the following checklist
-  options: - label: I confirm that this enhancement is not already implemented
+  options:
+  - label: I confirm that this enhancement is not already implemented
   required: true
