@@ -1,19 +1,19 @@
 name: Enhancement Request
-description: Request an improvement to an existing feature
+about: Request an improvement to an existing feature
 title: "[Enhancement]: "
-labels: ["enhancement"]
+labels: enhancement
 
 body:
-
-- type: textarea
-  attributes:
-  label: Enhancement Description
-  description: Describe the improvement you are requesting.
-  validations:
-  required: true
-- type: checkboxes
-  attributes:
-  label: Please checkmark the following checklist
-  options:
-    - label: I confirm that this enhancement is not already implemented
-  required: true
+  - type: textarea
+    attributes:
+      label: Enhancement Description
+      description: Describe the improvement you are requesting.
+      validations:
+        required: true
+  - type: checkboxes
+    attributes:
+      label: Please checkmark the following checklist
+      options:
+        - label: I confirm that this enhancement is not already implemented
+      validations:
+        required: true
