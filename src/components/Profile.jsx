@@ -3,9 +3,9 @@ import { data } from "../data";
 export const Profile = () => {
   return (
     <>
-      <div className=" text-center justify-center w-full py-4">
+      <div className="text-center justify-center w-full py-4">
         <a
-          className=" dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2"
+          className="dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2"
           href="https://github.com/Pinaka-Pani-18/Contributors-Gallery"
         >
           Add Profile
@@ -14,24 +14,23 @@ export const Profile = () => {
           Contributors Profiles
         </h1>
       </div>
-      <div className="relative flex  flex-col mx-8 z-10">
+      <div className="relative flex flex-col mx-8 z-10">
         <div>
-          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 w-54 ">
-            {/* card for profile */}
+          <div className="relative grid lg:grid-cols-3 md:grid-cols-2 gap-4">
             {data.map((value, key) => (
               <div
-                className="border  rounded-lg my-4 px-4 py-6 items-start flex gap-4 dm-bg mx-8 shadow-md"
+                className="border rounded-lg my-4 px-4 py-6 items-start flex gap-4 dm-bg mx-8 shadow-md transform transition-transform hover:scale-105"
                 key={key}
               >
                 <img
-                  src="https://avatars.githubusercontent.com/u/65086865?v=4"
+                  src={value.image}
                   alt="profile-image"
                   className="rounded-full w-1/6"
                 />
 
                 <div className="profile-details flex flex-col mx-4 my-4 flex-auto">
                   <div className="profie name w-full flex">
-                    <h1 className=" lg:text-2xl text-xl font-bold dm-text">
+                    <h1 className="lg:text-2xl text-xl font-bold dm-text">
                       {value.name}
                     </h1>
                   </div>
@@ -40,15 +39,19 @@ export const Profile = () => {
                     {value.description}
                   </p>
 
-                  <p className=" py-2 lg:text-md text-sm dm-text font-base uppercase">
-                    {value.stack}
+                  <h2 className="lg:text-md text-sm dm-text font-semibold uppercase">
+                    Skills
+                  </h2>
+                  <p className="py-2 lg:text-md text-sm dm-text font-base">
+                    {value.skills}
                   </p>
-                  <div className="profile-link py-2 dm-text lg:text-md text-sm cursor pointer">
+
+                  <div className="profile-link py-2 dm-text lg:text-md text-sm cursor-pointer">
                     <a
                       href={value.socials}
-                      className="dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2 "
+                      className="dm-bg-rev dm-text-rev px-4 py-2 rounded-full hover:bg-black2 dark:hover:bg-white2"
                     >
-                      Connect{" "}
+                      Connect
                     </a>
                   </div>
                 </div>
