@@ -1,10 +1,13 @@
-# Contributors Gallery
+<h1> Contributors Gallery </h1>
 
-![Contributors Gallery Logo](./path/to/your/logo.png)
+<br> 
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+ Contributors Gallery+!;Let's+Build+this+Together;Thanks+for+Contributing 💗" />
+<br>
 
-Contributors Gallery is an open-source project that serves as a platform to showcase the profiles and work of individuals who actively contribute to open-source projects.
+<p> Contributors Gallery is an open-source project that serves as a platform to showcase the profiles and work of individuals who actively contribute to open-source projects.
+</p>
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -12,8 +15,9 @@ Contributors Gallery is an open-source project that serves as a platform to show
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Support](#support)
 
-## Features
+## 🔑 Features
 
 - Showcase contributor profiles.
 - Highlight the open-source projects they've contributed to.
@@ -21,15 +25,18 @@ Contributors Gallery is an open-source project that serves as a platform to show
 - Search and filter contributors.
 - User-friendly and responsive design using TailwindCSS.
 
-## Tech Stack
+
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="40" height="40" /><font size="6">Tech Stack</font></h2>
 
 The Contributors Gallery is built using the following technologies:
 
-- **React**: A JavaScript library for building user interfaces.
-- **TailwindCSS**: A utility-first CSS framework for quickly styling web applications.
-- **Vite**: A build tool that serves your code via native ES modules, making it faster to develop.
+- <a href="https://developer.mozilla.org/en-US/docs/Glossary/React"><img src="https://img.shields.io/badge/React-1572B6.svg?style=for-the-badge&logo=React&logoColor=white"></a>
 
-## Installation
+- <a href="https://developer.mozilla.org/en-US/docs/Web/TailwindCSS"><img src="https://img.shields.io/badge/TailwindCSS-1572B6.svg?style=for-the-badge&logo=TailwindCSS&logoColor=black"></a>
+
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Vite"><img src="https://img.shields.io/badge/Vite-violet.svg?style=for-the-badge&logo=Vite&logoColor=black"></a>
+
+## 🛠 Installation
 
 1. **Clone the Repository:**
 
@@ -51,12 +58,19 @@ The Contributors Gallery is built using the following technologies:
 
 The app will be available at http://localhost:5173/.
 
-## Usage
 
-### Contributing
+## 🧿 Contributing
 
 We welcome contributions from the open-source community! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
-### License
+## ⚖ License
 
 This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+
+## Support
+
+If you enjoy contributing to our project, please consider giving us a star ⭐. Happy Open Source!
+
+## Thanks to all Awesome Contributors 💗
+
+![Contributors](https://contrib.rocks/image?repo=Pinaka-Pani-18/Contributors-Gallery)
