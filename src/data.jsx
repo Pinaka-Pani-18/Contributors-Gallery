@@ -1,5 +1,12 @@
 export const data = [
   {
+    name: "Pinaka Pani",
+    skills: "REACT, Java, TailwindCSS ... ",
+    description: `Frontend developer who loves creating projects.`,
+    socials: "https://github.com/Pinaka-Pani-18",
+    image: "https://github.com/account",
+  },
+  {
     name: "Peter Samuel",
     skills: "REACT, TYPESCRIPT, PYTHON, FIREBASE ... ",
     description: `I'm a competent software engineer`,
